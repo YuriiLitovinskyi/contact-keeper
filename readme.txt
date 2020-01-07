@@ -54,3 +54,56 @@ Now in "client" folder in file "package.json" add proxy:
 
 Now run:
   npm run dev
+
+Lesson 46
+Delete git repository (i didn't do whis):
+  cd client
+  rm -rf .git
+
+----
+Install dependencies for React client:
+  cd client  
+  npm i --save axios react-router-dom uuid react-transition-group 
+  cd ..
+  npm run dev
+
+FONT AWESOME
+  cd client
+  npm install --save-dev @fortawesome/fontawesome-free
+Now in file index.js add this line:
+  import "@fortawesome/fontawesome-free/css/all.css";
+
+Now create a Navbar component:
+  racfe
+Import prop types:
+  impt
+Prop types:
+  ptar - for array,
+  ptbr - for boolean,
+  ptsr - for string,
+  ptfr - for function,
+  ptor - for Object
+Also add default props!
+
+in App.js add Fragment and Router.
+Create Home and About components.
+
+Adding Links into Navbar component (<ul>)
+
+Lesson 47
+Creating contact Context, Global State!
+
+Lesson 48
+Display hard coded Contact data
+
+Lesson 49
+Creating a Form
+
+Lesson 50
+Delete Contact form
+
+Lesson 51
+Edit functionality
+
+
+

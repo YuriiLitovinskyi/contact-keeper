@@ -105,5 +105,11 @@ Delete Contact form
 Lesson 51
 Edit functionality
 
+Lesson 52
+Edit Update Contact
+
+Lesson 53
+Filter
+
 
 

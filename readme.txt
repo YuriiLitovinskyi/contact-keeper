@@ -111,5 +111,15 @@ Edit Update Contact
 Lesson 53
 Filter
 
+Lesson 54
+Animation
+
+Lesson 55
+Start working with SERVER!
+
+Lesson 56
+Register Login Form
+
+
 
 

@@ -120,6 +120,13 @@ Start working with SERVER!
 Lesson 56
 Register Login Form
 
+Lesson 57
+Register Alerts
 
+Lesson 58
+User registration, saving token in localStorage
+
+Lesson 59
+Load User, Set Token
 
 

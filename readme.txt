@@ -68,8 +68,8 @@ Install dependencies for React client:
   npm run dev
 
 FONT AWESOME
-  cd client
-  npm install --save-dev @fortawesome/fontawesome-free
+  cd client  
+  npm install --save @fortawesome/fontawesome-free
 Now in file index.js add this line:
   import "@fortawesome/fontawesome-free/css/all.css";
 
@@ -128,5 +128,17 @@ User registration, saving token in localStorage
 
 Lesson 59
 Load User, Set Token
+
+Lesson 60
+User Login
+
+Lesson 61
+Logout Navbar
+
+Lesson 62 
+Private Route!
+
+Lesson 63 
+Add Contact in DATABASE!
 
 

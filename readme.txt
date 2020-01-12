@@ -174,7 +174,7 @@ Open another shell in mail folder, then:
   heroku git:remote -a shrouded-ravine-04357
   git push heroku master
   heroku open
-
+https://shrouded-ravine-04357.herokuapp.com/
 
 
 

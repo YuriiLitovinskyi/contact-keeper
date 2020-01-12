@@ -167,6 +167,13 @@ In package.json add script: "heroku-postbuild"
 
 From main server folder:
   heroku login
+Open another shell in mail folder, then:
+  heroku create
+  git add .
+  git commit -m "prepere for deploy"
+  heroku git:remote -a shrouded-ravine-04357
+  git push heroku master
+  heroku open
 
 
 

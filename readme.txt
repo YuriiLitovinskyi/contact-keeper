@@ -141,4 +141,33 @@ Private Route!
 Lesson 63 
 Add Contact in DATABASE!
 
+Lesson 64
+Get Clear Contacts (problem with dispaying data in navbar?)
+
+Lesson 65
+Delete Contact from database
+DELETE NOT WORKING WITH DATABASE!
+Working(done it by myself on the backend)
+
+Lesson 66
+Update Contact
+NOT WORKING WITH DATABASE!
+Working(done it by myself on the backend)
+
+Lesson 67
+Deploying to Heroku
+
+Install Heroku CLI
+To check if it is installed:
+  heroku --version
+To file server.js (on Server) add code:
+  // Serve static assets in production
+
+In package.json add script: "heroku-postbuild"
+
+From main server folder:
+  heroku login
+
+
+
 

@@ -4,7 +4,7 @@ import ContactContext from '../../context/contact/contactContext';
 const ContactForm = () => {
     const contactContext = useContext(ContactContext);
 
-    const { addContact, updateContact, clearCurrent, current } = contactContext;
+    const { getContacts, addContact, updateContact, clearCurrent, current } = contactContext;
 
     useEffect(() => {
         if(current !== null) {
@@ -35,13 +35,14 @@ const ContactForm = () => {
         if(current === null) {
             addContact(contact);
         } else {
-            updateContact(contact);
-        }
-        clearAll();      
+            updateContact(contact);            
+        }        
+        clearAll();              
     };
 
     const clearAll = () => {
         clearCurrent();
+        getContacts();
     };
 
     return (
@@ -53,6 +54,7 @@ const ContactForm = () => {
                 name="name" 
                 value={name} 
                 onChange={onChange}
+                required
             /> 
             <input 
                 type="email" 
@@ -60,6 +62,7 @@ const ContactForm = () => {
                 name="email" 
                 value={email} 
                 onChange={onChange}
+                required
             />  
             <input 
                 type="text" 
@@ -67,6 +70,7 @@ const ContactForm = () => {
                 name="phone" 
                 value={phone} 
                 onChange={onChange}
+                required
             /> 
             <h5>Contact Type</h5>     
             <input
